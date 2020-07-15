@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>stopwatch</title>
+</head>
+<body>
+<style>
+body
+{
+    background: black;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: Calibri;
+    background: url("back.jpg");
+}
+h1
+{
+
+    color: white;
+    display: inline-block;
+    width: 170px;
+    padding: 5px;
+
+
+}
+h1 span
+{
+    font-size: 60px;
+
+}
+button
+{
+    padding: 5px;
+    margin-top: 50px;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+</style>
+<h1>Stop Watch</h1>
+<div id="headings">
+    <h1><span id="min">0</span> min</h1>
+    <h1><span id="sec">0</span> sec</h1>
+    <h1><span id="msec">0</span> msec</h1>
+</div>
+<div>
+    <button onclick="start()" id="start">Start</button>
+    <button onclick="pause()" id="pause">Pause</button>
+    <button onclick="reset()" id="reset">Reset</button>
+</div>
+
+
+
+
+
+<script src="stopwatch.js"></script>
+
+</body>
+</html>
